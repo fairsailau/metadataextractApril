@@ -11,7 +11,7 @@ from datetime import datetime
 # Import optimized modules
 from modules.session_state_manager import SessionStateManager as SSM
 from modules.integration import get_integration
-from modules.authentication import authenticate_box
+from modules.authentication import authenticate
 from modules.file_browser import display_file_browser
 from modules.document_categorization import categorize_document
 from modules.metadata_template_retrieval import get_metadata_templates, get_template_fields
